@@ -17,4 +17,4 @@ clientDiscord.on('message', (message) => {
 
 });
 
-clientDiscord.login(config.token);
+clientDiscord.login(process.env.TOKEN);
