@@ -119,4 +119,4 @@ clientDiscord.on('message', message => {
 
 // message.channel.send("texte " + '<@' + 'UID' + '>' + "");
 
-clientDiscord.login(config.token);
+clientDiscord.login(process.env.TOKEN);
