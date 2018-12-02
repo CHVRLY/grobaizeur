@@ -114,6 +114,31 @@ clientDiscord.on('message', message => {
     }
 });
 
+// !gb jade aime
+
+jadeaime1 = "Le sexe ! (miam)"; jadeaime2 = "Titi !"; jadeaime3 = "Charly le gros detraqué sexuel !";
+jadeaime4 = "L'odeur du chibre quand il est encore humide !"; jadeaime5 = "Les hommes bouclés !"; jadeaime6 = "Se faire dominer !";
+jadeaime7 = "Se faire chauffer dans le salon : téléphone rose !"; jadeaime8 = "Quand les hommes passent par derrière !"; jadeaime9 = "Les coquillettes !";
+
+clientDiscord.on('message', message => {
+    if(message.content.startsWith("Jade aime")) {
+           //number = 3;
+           //var random = Math.floor (Math.random() * (number - 1 + 1)) + 1;
+           var random = Math.floor(Math.random() * 9) + 1;
+           switch (random) {
+               case 1: message.channel.send ([jadeaime1]); break;
+               case 2: message.channel.send ([jadeaime2]); break;
+               case 3: message.channel.send ([jadeaime3]); break;
+               case 4: message.channel.send ([jadeaime4]); break;
+               case 5: message.channel.send ([jadeaime5]); break;
+               case 6: message.channel.send ([jadeaime6]); break;
+               case 7: message.channel.send ([jadeaime7]); break;
+               case 8: message.channel.send ([jadeaime8]); break;
+               case 9: message.channel.send ([jadeaime9]); break;
+           }
+        }
+});
+
 
 // message.channel.send ({ files : ["./images/kiss.gif"] });
 
