@@ -121,6 +121,7 @@ jadeaime4 = "L'odeur du chibre quand il est encore humide !"; jadeaime5 = "Les h
 jadeaime7 = "Se faire chauffer dans le salon : téléphone rose !"; jadeaime8 = "Quand les hommes passent par derrière !"; jadeaime9 = "Les coquillettes !";
 
 clientDiscord.on('message', message => {
+    if (message.channel.id === '462666329711837185') {
     if(message.content.startsWith(PREFIX + " Jade aime")) {
            //number = 3;
            //var random = Math.floor (Math.random() * (number - 1 + 1)) + 1;
@@ -137,6 +138,7 @@ clientDiscord.on('message', message => {
                case 9: message.channel.send ([jadeaime9]); break;
            }
         }
+     }
 });
 
 
