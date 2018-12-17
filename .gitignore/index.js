@@ -116,9 +116,9 @@ clientDiscord.on('message', message => {
 
 // !gb jade aime
 
-jadeaime1 = "Le sexe ! (miam)"; jadeaime2 = "Titi !"; jadeaime3 = "Charly le gros detraqué sexuel !";
-jadeaime4 = "L'odeur du chibre quand il est encore humide !"; jadeaime5 = "Les hommes bouclés !"; jadeaime6 = "Se faire dominer !";
-jadeaime7 = "Se faire chauffer dans le salon : téléphone rose !"; jadeaime8 = "Quand les hommes passent par derrière !"; jadeaime9 = "Les coquillettes !";
+jadeaime1 = "Le sexe ! (miam)"; jadeaime2 = "Le Charly's Juice"; jadeaime3 = "Charly le gros detraqué sexuel !";
+jadeaime4 = "L'odeur du chibre quand il est encore humide !"; jadeaime5 = "Les hommes murs"; jadeaime6 = "Se faire dominer !";
+jadeaime7 = "Se faire chauffer dans le salon : téléphone rose !"; jadeaime8 = "Quand les hommes passent par derrière !"; jadeaime9 = "La sodomie hardcore";
 
 clientDiscord.on('message', message => {
     if (message.channel.id === '462666329711837185') {
