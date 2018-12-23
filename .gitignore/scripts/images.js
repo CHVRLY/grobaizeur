@@ -253,19 +253,20 @@ clientDiscord.on('message', message => {
 // !gb hips
 
 hips1 = "./images/hips/hips1.jpg"; hips2 = "./images/hips/hips2.jpg"; hips3 = "./images/hips/hips3.jpg";
-hips4 = "./images/hips/hips4.jpg"; hips5 = "./images/hips/hips5.jpg";
+hips4 = "./images/hips/hips4.jpg"; hips5 = "./images/hips/hips5.jpg"; hips6 = "./images/hips/hips6.jpg";
 
 clientDiscord.on('message', message => {
     if (message.channel.id === '462666329711837185') {
     if(message.content.startsWith(PREFIX)) {
         if(message.content === "!gb hips") {
-           var random = Math.floor(Math.random() * 5) + 1;
+           var random = Math.floor(Math.random() * 6) + 1;
            switch (random) {
                case 1: message.channel.send ({ files: [hips1] }); break;
                case 2: message.channel.send ({ files: [hips2] }); break;
                case 3: message.channel.send ({ files: [hips3] }); break;
                case 4: message.channel.send ({ files: [hips4] }); break;
                case 5: message.channel.send ({ files: [hips5] }); break;
+               case 6: message.channel.send ({ files: [hips6] }); break;
            }
         }
     }
