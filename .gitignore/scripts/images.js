@@ -135,7 +135,8 @@ clientDiscord.on('message', message => {
 
 sexy1 = "./images/sexy/sexy1.jpg"; sexy2 = "./images/sexy/sexy2.jpg"; sexy3 = "./images/sexy/sexy3.jpg"; sexy4 = "./images/sexy/sexy4.jpg";
 sexy5 = "./images/sexy/sexy5.jpg"; sexy6 = "./images/sexy/sexy6.jpg"; sexy7 = "./images/sexy/sexy7.jpg"; sexy8 = "./images/sexy/sexy8.jpg";
-sexy9 = "./images/sexy/sexy9.jpg"; sexy10 = "./images/sexy/sexy10.jpg";
+sexy9 = "./images/sexy/sexy9.jpg"; sexy10 = "./images/sexy/sexy10.jpg"; sexy11 = "./images/sexy/sexy11.jpg"; sexy12 = "./images/sexy/sexy12.jpg";
+sexy13 = "./images/sexy/sexy13.jpg";
 
 clientDiscord.on('message', message => {
     if (message.channel.id === '462666329711837185') {
@@ -153,6 +154,9 @@ clientDiscord.on('message', message => {
                case 8: message.channel.send ({ files: [sexy8] }); break;
                case 9: message.channel.send ({ files: [sexy9] }); break;
                case 10: message.channel.send ({ files: [sexy10] }); break;
+               case 11: message.channel.send ({ files: [sexy11] }); break;
+               case 12: message.channel.send ({ files: [sexy12] }); break;
+               case 13: message.channel.send ({ files: [sexy13] }); break;
            }
         }
     }
