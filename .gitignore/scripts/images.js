@@ -21,7 +21,11 @@ ass37 = "./images/ass/ass37.jpg"; ass38 = "./images/ass/ass38.jpg"; ass39 = "./i
 ass40 = "./images/ass/ass40.jpg"; ass41 = "./images/ass/ass41.jpg"; ass42 = "./images/ass/ass42.jpg";
 ass43 = "./images/ass/ass43.jpg"; ass44 = "./images/ass/ass44.jpg"; ass45 = "./images/ass/ass45.jpg";
 ass46 = "./images/ass/ass46.jpg"; ass47 = "./images/ass/ass47.jpg"; ass48 = "./images/ass/ass48.jpg";
-ass49 = "./images/ass/ass49.jpg";
+ass49 = "./images/ass/ass49.jpg"; ass50 = "./images/ass/ass50.jpg"; ass51 = "./images/ass/ass51.jpg";
+ass52 = "./images/ass/ass52.jpg"; ass53 = "./images/ass/ass53.jpg"; ass54 = "./images/ass/ass54.jpg";
+ass55 = "./images/ass/ass55.jpg"; ass56 = "./images/ass/ass56.jpg"; ass57 = "./images/ass/ass57.jpg";
+ass58 = "./images/ass/ass58.jpg"; ass59 = "./images/ass/ass59.jpg"; ass60 = "./images/ass/ass60.jpg";
+ass61 = "./images/ass/ass61.jpg"; ass62 = "./images/ass/ass62.jpg"; ass63 = "./images/ass/ass63.jpg";
 
 clientDiscord.on('message', message => {
     if (message.channel.id === '462666329711837185') {
@@ -78,6 +82,20 @@ clientDiscord.on('message', message => {
                case 47: message.channel.send ({ files: [ass47] }); break;
                case 48: message.channel.send ({ files: [ass48] }); break;
                case 49: message.channel.send ({ files: [ass49] }); break;
+               case 50: message.channel.send ({ files: [ass50] }); break;
+               case 51: message.channel.send ({ files: [ass51] }); break;
+               case 52: message.channel.send ({ files: [ass52] }); break;
+               case 53: message.channel.send ({ files: [ass53] }); break;
+               case 54: message.channel.send ({ files: [ass54] }); break;
+               case 55: message.channel.send ({ files: [ass55] }); break;
+               case 56: message.channel.send ({ files: [ass56] }); break;
+               case 57: message.channel.send ({ files: [ass57] }); break;
+               case 58: message.channel.send ({ files: [ass58] }); break;
+               case 59: message.channel.send ({ files: [ass59] }); break;
+               case 60: message.channel.send ({ files: [ass60] }); break;
+               case 61: message.channel.send ({ files: [ass61] }); break;
+               case 62: message.channel.send ({ files: [ass62] }); break;
+               case 63: message.channel.send ({ files: [ass63] }); break;
            }
         }
     }
